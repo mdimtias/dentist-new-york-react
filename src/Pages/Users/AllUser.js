@@ -4,7 +4,7 @@ const AllUser = () => {
     
     const [users, setUsers] = useState();
     useEffect(()=>{
-        fetch("http://localhost:5000/user", {
+        fetch("https://doctors-portal-client-server-developertanbir-gmailcom.vercel.app/user", {
             headers: {
                 authorization: localStorage.getItem("token")
             }

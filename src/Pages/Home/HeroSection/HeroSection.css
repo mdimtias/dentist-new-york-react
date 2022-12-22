@@ -1,0 +1,34 @@
+.hero_section{
+    background-color: #EEFBFA;
+    padding: 60px 0;
+}
+.btn-style{
+    display: inline-block;
+    background: linear-gradient(90deg, #0F2650 23.04%, rgba(15, 38, 80, 0.81) 77.32%);
+    color: #01CFC9;
+    border-radius: 10px;
+    padding: 9px 40px;
+    transition: 0.5s ease;
+}
+.btn-style:hover{
+    background: linear-gradient(90deg, #5b8ae5 23.04%, rgb(58 94 161 / 81%) 77.32%);
+    color: #fff;
+    transform: translate(10px, 0px);
+    padding: 10px 50px;
+}
+.hero_phone_img, .hero-address-img {
+    background: #000;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero_image{
+    position: relative;
+}
+.hero_image img{
+    background: #01CFC9;
+    clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+}

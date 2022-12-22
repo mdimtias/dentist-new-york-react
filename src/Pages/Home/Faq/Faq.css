@@ -1,0 +1,10 @@
+.collapse-plus .collapse-title::after {
+    background: black;
+    width: 25px;
+    border-radius: 50%;
+    height: 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

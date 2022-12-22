@@ -30,8 +30,8 @@ const SignUp = () => {
 
     // Create User Database
     const createUserDb = async (email) => {
-      // await fetch(`http://localhost:5000/users/${email}`, {
-      await fetch(`http://localhost:5000/users/${email}`, {
+      // await fetch(`https://doctors-portal-client-server-developertanbir-gmailcom.vercel.app/users/${email}`, {
+      await fetch(`https://doctors-portal-client-server-developertanbir-gmailcom.vercel.app/users/${email}`, {
         method: "PUT",
         headers: {
           "content-type": "application/json"
@@ -56,7 +56,7 @@ const SignUp = () => {
       .catch((err) => toast.error("Account Create Fail"));
   };
   return (
-    <div className="d-flex justify-center items-center p-12">
+    <div className="d-flex justify-center items-center p-12 lg:mb-32">
       <form action="" onSubmit={signUpHandler}>
         <div className="p-2">
           <input

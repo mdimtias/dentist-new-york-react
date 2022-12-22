@@ -1,0 +1,19 @@
+.dental_studio_section{
+    background-color: #EEFBFA;
+    padding: 50px 0;
+}
+.dentist-studio-img{
+    background: #B7ECEA;
+    border-radius: 12px;
+    width: 140px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dentist-studio-img img{
+    width: 45px;
+}
+.doctor_studio img{
+    clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
+}

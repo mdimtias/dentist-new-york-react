@@ -20,7 +20,7 @@ const Login = () => {
         const password = form.password.value;
         signIn(email, password)
         .then(async () => {
-             fetch(`http://localhost:5000/users/${email}`,{
+             fetch(`https://doctors-portal-client-server-developertanbir-gmailcom.vercel.app/users/${email}`,{
                     method: "PUT",
                     headers: {
                       "content-type": "application/json"
@@ -37,7 +37,7 @@ const Login = () => {
             toast.error("LogIn Fail")})
     }
     return (
-        <div className="d-flex justify-center items-center p-12">
+        <div className="d-flex justify-center items-center p-12 lg:mb-32">
       <form action="" onSubmit={handleLogIn}>
         <div className="p-2">
           <input

@@ -14,7 +14,7 @@ const CheckoutForm = ({ booking }) => {
 
   useEffect(() => {
     // Create PaymentIntent as soon as the page loads
-    fetch("http://localhost:5000/create-payment-intent", {
+    fetch("https://doctors-portal-client-server-developertanbir-gmailcom.vercel.app/create-payment-intent", {
       method: "POST",
       headers: {
          "Content-Type": "application/json",
@@ -38,7 +38,7 @@ const CheckoutForm = ({ booking }) => {
     }
 
     // Use your card Element with other Stripe.js APIs
-    const { error, paymentMethod } = await stripe.createPaymentMethod({
+    const { error } = await stripe.createPaymentMethod({
       type: "card",
       card,
     });
@@ -79,7 +79,7 @@ const CheckoutForm = ({ booking }) => {
             email,
             bookingId: _id
         }
-        fetch('http://localhost:5000/payments', {
+        fetch('https://doctors-portal-client-server-developertanbir-gmailcom.vercel.app/payments', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

@@ -1,0 +1,32 @@
+.expert_dentist_section{
+    background-color: #EEFBFA;
+    padding: 50px 0;
+}
+.expert-doctor:hover{
+    background: linear-gradient(90deg, #0F2650 17.18%, rgba(15, 38, 80, 0.81) 85.05%);
+}
+.expert-doctor:hover .expert-doctor-text h2{
+    color: #01CFC9;
+}
+.expert-doctor:hover .expert-doctor-text p{
+    color: #ffffff;
+}
+.expert-doctor-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.expert-doctor-img img{
+    width: 100px;
+    height: 130px;
+}
+.expert-doctor-img-style{
+    width: 130px;
+    height: 130px;
+    background-color: #BEF2F0;
+    transform: translate(0%, -50%);
+    border-radius: 25px;
+}
+.expert-doctor-text{
+    margin-top: -50px;
+}

@@ -7,7 +7,7 @@ import Loading from "../../SharedPage/Loading/Loading";
 const MyAppointment = () => {
   const { user } = useContext(AuthContext);
   // const [bookings, setBookings] = useState([]);
-  const url = `http://localhost:5000/booking?email=${user?.email}`;
+  const url = `https://doctors-portal-client-server-developertanbir-gmailcom.vercel.app/booking?email=${user?.email}`;
   const { data: bookings = [], isLoading } = useQuery({
     queryKey: ["booking", user?.email],
     queryFn: async () => {
@@ -26,7 +26,7 @@ const MyAppointment = () => {
   // }, [user?.email])
   return (
     <div>
-      <h2 className="text-3xl">My Appointment</h2>
+      <h2 className="text-3xl py-5">My Appointment</h2>
       <div className="overflow-x-auto">
         <table className="table w-full">
           <thead>

@@ -1,11 +1,14 @@
 .footer-section{
-    background: rgba(1, 207, 201, 0.2);
-    position: relative;
+    /* background: rgba(1, 207, 201, 0.2); */
+    background: linear-gradient(90deg, #0F2650 13.91%, rgba(15, 38, 80, 0.81) 87.33%);
+    /* position: relative; */
 }
-.footer{
+/* .footer{
     background: rgba(1, 207, 201, 0.2);
     padding-top: 125px;
-}
+} */
+
+/* 
 .subscribe{
     position: absolute;
     top:-33%;
@@ -13,5 +16,6 @@
     width:700px;
     background: linear-gradient(90deg, #0F2650 13.91%, rgba(15, 38, 80, 0.81) 87.33%);
     /* transform: translate(0%, 50%); */
-    border-radius: 76px;
-}
+    /* border-radius: 76px;
+} 
+*/ 

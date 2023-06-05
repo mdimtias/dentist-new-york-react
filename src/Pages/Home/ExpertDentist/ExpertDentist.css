@@ -23,9 +23,8 @@
 .expert-doctor-img-style{
     width: 130px;
     height: 130px;
-    background-color: #BEF2F0;
+    background-color: gray;
     transform: translate(0%, -50%);
-    border-radius: 25px;
 }
 .expert-doctor-text{
     margin-top: -50px;

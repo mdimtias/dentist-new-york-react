@@ -8,9 +8,9 @@ const AdminRoute = ({children}) => {
     
     const location = useLocation();
     const [isAdmin, isAdminLoading] = useAdmin(user?.email)
-    if(loading || isAdminLoading){
-        return <progress className="progress w-56"></progress>
-    }
+    // if(loading || isAdminLoading){
+    //     return <progress className="progress w-56"></progress>
+    // }
 
     if (user && isAdmin){
         return children;

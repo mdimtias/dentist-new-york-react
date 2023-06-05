@@ -1,5 +1,6 @@
 import React from "react";
 import './Faq.css';
+import { Link } from "react-router-dom";
 const Faq = () => {
   return (
     <div className="faq_section bg-[#EEFBFA] py-6">
@@ -127,7 +128,7 @@ const Faq = () => {
             </div>
           </div>
           <div className="faq-btn pt-8">
-            <button className="btn-style">Book Appointment</button>
+           <Link to="/appointment"> <button className="btn-style">Book Appointment</button></Link>
           </div>
         </div>
       </div>

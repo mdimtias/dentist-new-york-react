@@ -8,7 +8,7 @@ const AppointBanner = ({selectedDate, setSelectedDate}) => {
         <div className="hero py-6">
       <div className="hero-content flex-col lg:flex-row-reverse">
        <img
-          src="https://cdn.pixabay.com/photo/2014/11/28/01/01/jay-548381__340.jpg"
+          src="https://cdn.pixabay.com/photo/2013/03/11/22/15/new-taipei-92717__340.jpg"
           className="rounded-lg shadow-2xl"
          alt=""/>
          <div>

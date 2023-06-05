@@ -15,7 +15,7 @@ const ExpertDentist = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mt-28 px-5 lg:px-0 gap-5">
                     <div className="expert-doctor border rounded-2xl border-[#01CFC9] pb-5 mb-16 lg:mb-0">
                         <div className="expert-doctor-img">
-                            <div className="expert-doctor-img-style">
+                            <div className="expert-doctor-img-style rounded-full overflow-hidden">
                                 <img src={doctorOne} alt="" />
                             </div>
                         </div>
@@ -26,7 +26,7 @@ const ExpertDentist = () => {
                     </div>
                     <div className="expert-doctor border rounded-2xl border-[#01CFC9] pb-5 mb-16 lg:mb-0">
                         <div className="expert-doctor-img">
-                            <div className="expert-doctor-img-style">
+                            <div className="expert-doctor-img-style rounded-full overflow-hidden">
                                 <img src={doctorTwo} alt="" />
                             </div>
                         </div>
@@ -37,7 +37,7 @@ const ExpertDentist = () => {
                     </div>
                     <div className="expert-doctor border rounded-2xl border-[#01CFC9] pb-5 mb-16 lg:mb-0">
                         <div className="expert-doctor-img">
-                            <div className="expert-doctor-img-style">
+                            <div className="expert-doctor-img-style rounded-full overflow-hidden">
                                 <img src={doctorThree} alt="" />
                             </div>
                         </div>
@@ -48,7 +48,7 @@ const ExpertDentist = () => {
                     </div>
                     <div className="expert-doctor border rounded-2xl border-[#01CFC9] pb-5 mb-16 lg:mb-0">
                         <div className="expert-doctor-img">
-                            <div className="expert-doctor-img-style">
+                            <div className="expert-doctor-img-style rounded-full overflow-hidden">
                                 <img src={doctorFour} alt="" />
                             </div>
                         </div>

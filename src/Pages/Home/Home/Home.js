@@ -5,6 +5,8 @@ import Faq from '../Faq/Faq';
 import HeroSection from '../HeroSection/HeroSection';
 import Reviews from '../Reviews/Reviews';
 import Services from '../Services/Services';
+import WhyChooseUs from '../WhyChooseUs/WhyChooseUs';
+import Subscribe from '../../SharedPage/Subscribe/Subscribe';
 
 const Home = () => {
     return (
@@ -13,8 +15,10 @@ const Home = () => {
             <Services></Services>
             <DentalStudio></DentalStudio>
             <ExpertDentist></ExpertDentist>
-            <Faq></Faq>
+            <WhyChooseUs></WhyChooseUs>
             <Reviews></Reviews>
+            <Subscribe></Subscribe>
+            <Faq></Faq>
         </>
     );
 };
